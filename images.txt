@@ -1,6 +1,10 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+anapsix/alpine-java:8_server-jre_unlimited
+nginx:1.10
+nginx:1.20.0
+openjdk:17.0.2-oraclelinux8
+mysql:5.7
+minio/minio:RELEASE.2021-06-17T00-10-46Z
+tdengine/tdengine:3.2.1.0
+redis
+
+
